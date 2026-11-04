@@ -1,0 +1,38 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f5eee5;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    max-width: 550px;
+    margin: 20px;
+    padding: 45px;
+    background: #fffdf9;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-family: Georgia, serif;
+    font-size: 42px;
+    color: #70452e;
+    margin-bottom: 25px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #6b5a4e;
+}
