@@ -36,3 +36,34 @@ p {
     line-height: 1.8;
     color: #6b5a4e;
 }
+
+/* Título do cardápio */
+h2 {
+    font-family: Georgia, serif;
+    font-size: 26px;
+    color: #70452e;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+/* Lista de pratos */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f8f0e6;
+    color: #70452e;
+    padding: 14px 20px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    font-size: 16px;
+    border-left: 4px solid #b88a5a;
+    transition: 0.3s;
+}
+
+li:hover {
+    background-color: #ead8c3;
+    transform: translateX(5px);
+}
