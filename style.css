@@ -67,3 +67,22 @@ li:hover {
     background-color: #ead8c3;
     transform: translateX(5px);
 }
+
+/* Seção de contato */
+.contato {
+    margin-top: 35px;
+    padding-top: 25px;
+    border-top: 1px solid #e8d9c7;
+}
+
+.contato h2 {
+    font-size: 24px;
+    color: #70452e;
+    margin-bottom: 15px;
+}
+
+.contato p {
+    font-size: 14px;
+    line-height: 1.8;
+    margin-bottom: 12px;
+}
